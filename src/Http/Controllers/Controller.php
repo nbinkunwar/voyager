@@ -224,7 +224,7 @@ abstract class Controller extends BaseController
                             $resize_width,
                             $resize_height,
                             function (Constraint $constraint) use ($options) {
-                                $constraint->aspectRatio();
+//                                $constraint->aspectRatio();
                                 if (isset($options->upsize) && !$options->upsize) {
                                     $constraint->upsize();
                                 }
@@ -252,7 +252,7 @@ abstract class Controller extends BaseController
                                         $thumb_resize_width,
                                         $thumb_resize_height,
                                         function (Constraint $constraint) use ($options) {
-                                            $constraint->aspectRatio();
+//                                            $constraint->aspectRatio();
                                             if (isset($options->upsize) && !$options->upsize) {
                                                 $constraint->upsize();
                                             }
@@ -351,7 +351,7 @@ abstract class Controller extends BaseController
                         $resize_width,
                         $resize_height,
                         function (Constraint $constraint) use ($options) {
-                            $constraint->aspectRatio();
+//                            $constraint->aspectRatio();
                             if (isset($options->upsize) && !$options->upsize) {
                                 $constraint->upsize();
                             }
@@ -385,7 +385,7 @@ abstract class Controller extends BaseController
                                     $thumb_resize_width,
                                     $thumb_resize_height,
                                     function (Constraint $constraint) use ($options) {
-                                        $constraint->aspectRatio();
+//                                        $constraint->aspectRatio();
                                         if (isset($options->upsize) && !$options->upsize) {
                                             $constraint->upsize();
                                         }
